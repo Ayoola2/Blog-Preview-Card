@@ -72,6 +72,12 @@ p{
     color: black;
     background-color: #F4D04E;
     font-weight: 900;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+}
+
+.learning:hover{
+    background-color: #d0b966;
 }
 
 .cont2{
@@ -85,6 +91,11 @@ p{
     display: flex;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
+}
+
+.profileCont p:hover{
+    color: #F4D04E;
 }
 
 .image-avatar{
